@@ -4,7 +4,8 @@ import java.util.Random;
 
 public class Part {
 
-    protected int failChance;
+    private boolean isFailed;
+    private int failChance;
 
     public Part(int failChance) {
         this.failChance = failChance;
