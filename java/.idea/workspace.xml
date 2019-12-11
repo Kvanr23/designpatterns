@@ -3,14 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/despat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrashException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/CrashException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EngineException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Flap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PilotException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Airplane.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/App.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/CrashException.py" beforeDir="false" />
@@ -55,7 +64,7 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+      <option name="MAIN_CLASS_NAME" value="Opdracht1.App" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,22 +106,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576015134788" />
-    <state width="1877" height="188" key="GridCell.Tab.0.bottom" timestamp="1576016923187">
+    <state width="1877" height="199" key="GridCell.Tab.0.bottom" timestamp="1576023167623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576016923187" />
-    <state width="1877" height="188" key="GridCell.Tab.0.center" timestamp="1576016923187">
+    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576023167623" />
+    <state width="1877" height="199" key="GridCell.Tab.0.center" timestamp="1576023167623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576016923187" />
-    <state width="1877" height="188" key="GridCell.Tab.0.left" timestamp="1576016923187">
+    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576023167623" />
+    <state width="1877" height="199" key="GridCell.Tab.0.left" timestamp="1576023167623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576016923187" />
-    <state width="1877" height="188" key="GridCell.Tab.0.right" timestamp="1576016923187">
+    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576023167623" />
+    <state width="1877" height="199" key="GridCell.Tab.0.right" timestamp="1576023167623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576016923187" />
+    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576023167623" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1576016904047">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

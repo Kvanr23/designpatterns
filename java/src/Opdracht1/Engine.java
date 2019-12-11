@@ -1,20 +1,22 @@
+package Opdracht1;
+
 import java.util.Random;
 
-public class Pilot {
-    float failChance = 0.005f;
+public class Engine {
+    float failChance = 0.001f;
     int chance = (int) (1.0f/failChance);
 
     private boolean isFailed;
 
-    public Pilot() {
+    public Engine() {
 
     }
 
-    public void calculate() throws PilotException {
+    public void calculate() throws EngineException {
         Random rand = new Random();
 
         if(rand.nextInt(chance) == 1) {
-            throw new PilotException("Flap failed!");
+            throw new EngineException("Engine failed!");
         }
         else {
             // Do nothing.

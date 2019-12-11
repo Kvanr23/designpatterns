@@ -1,3 +1,5 @@
+package Opdracht1;
+
 public class Recorder {
     public int crashedByEngine = 0;
     public int crashedByFlap = 0;
@@ -11,16 +13,18 @@ public class Recorder {
     public void simulate() {
         for (int i = 0; i < 1000000; i++) {
             Airplane plane = new Airplane(i);
+//            System.out.println(i);
             try {
                 plane.flight();
             } catch (CrashException e) {
                 totalCrashes++;
-                e.printStackTrace();
+//                e.printStackTrace();
             }
         }
     }
 
     public void printResults() {
-
+        System.out.print("Total crashes: ");
+        System.out.println(totalCrashes);
     }
 }

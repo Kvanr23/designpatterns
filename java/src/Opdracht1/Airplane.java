@@ -1,3 +1,5 @@
+package Opdracht1;
+
 import java.util.ArrayList;
 
 public class Airplane {
@@ -21,6 +23,7 @@ public class Airplane {
         pilots = new ArrayList<Pilot>();
         pilots.add(new Pilot());
         pilots.add(new Pilot());
+        pilots.add(new Pilot());
     }
 
     private boolean flightFailed = false;
@@ -32,6 +35,7 @@ public class Airplane {
                 this.engines.get(i).calculate();
             }
             catch (EngineException e) {
+//                System.out.println(e);
                 this.engines.get(i).setFailed();
             }
         }
@@ -42,6 +46,7 @@ public class Airplane {
                 this.flaps.get(i).calculate();
             }
             catch (FlapException e) {
+//                System.out.println(e);
                 this.flaps.get(i).setFailed();
             }
         }
@@ -52,6 +57,7 @@ public class Airplane {
                 this.pilots.get(i).calculate();
             }
             catch (PilotException e) {
+//                System.out.println(e);
                 this.pilots.get(i).setFailed();
             }
         }
@@ -71,8 +77,8 @@ public class Airplane {
         }
 
 
-        /*if (this.engines.get(1).simulate() && this.engines.get(2).simulate()) {
-            System.out.println('ENGINE');
-        }*/
+        if(flightFailed) {
+            throw new CrashException("Plane crashed!");
+        }
     }
 }

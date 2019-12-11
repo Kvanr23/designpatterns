@@ -1,20 +1,22 @@
+package Opdracht1;
+
 import java.util.Random;
 
-public class Flap {
-    float failChance = 0.0005f;
+public class Pilot {
+    float failChance = 0.005f;
     int chance = (int) (1.0f/failChance);
 
     private boolean isFailed;
 
-    public Flap() {
+    public Pilot() {
 
     }
 
-    public void calculate() throws FlapException {
+    public void calculate() throws PilotException {
         Random rand = new Random();
 
         if(rand.nextInt(chance) == 1) {
-            throw new FlapException("Flap failed!");
+            throw new PilotException("Pilot failed!");
         }
         else {
             // Do nothing.
