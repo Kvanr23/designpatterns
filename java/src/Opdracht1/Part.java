@@ -8,6 +8,7 @@ public abstract class Part {
     private int failChance;
 
     public Part(int failChance) {
+
         this.failChance = failChance;
     }
 
@@ -23,10 +24,12 @@ public abstract class Part {
     }
 
     public boolean isFailed() {
+
         return isFailed;
     }
 
     public void setFailed(boolean failed) {
+
         isFailed = failed;
     }
 

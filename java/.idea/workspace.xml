@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Flap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Flap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Pilot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/CrashException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/CrashException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Flap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Flap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/PartException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/PartException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Part.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kevin &amp; Thom" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UoFAXVUlR5d0knpb13A5FP3IXW" />
@@ -92,7 +85,8 @@
       <updated>1576014898063</updated>
       <workItem from="1576068324609" duration="1209000" />
       <workItem from="1576069565493" duration="1998000" />
-      <workItem from="1576073446820" duration="6246000" />
+      <workItem from="1576073446820" duration="6814000" />
+      <workItem from="1576080323810" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="jUNOr0CKZ">
       <created>1576075738265</created>
@@ -122,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576078515619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cleaned up code">
+      <created>1576079770916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576079770916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +147,8 @@
     <MESSAGE value="jUNO still r0CKZ" />
     <MESSAGE value="jUNO still r0CKZ 1337" />
     <MESSAGE value="jUNO still r0CKZ 1337 !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="jUNO still r0CKZ 1337 !!!" />
+    <MESSAGE value="Cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" />

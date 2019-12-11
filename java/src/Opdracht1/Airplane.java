@@ -3,24 +3,24 @@ package Opdracht1;
 import java.util.ArrayList;
 
 public class Airplane {
-    public ArrayList<Engine> engines;
-    public ArrayList<Flap> flaps;
-    public ArrayList<Pilot> pilots;
+    public ArrayList<Part> engines;
+    public ArrayList<Part> flaps;
+    public ArrayList<Part> pilots;
 
     public Airplane(int number) {
 //        int flightNumber = number;
 
-        engines = new ArrayList<Engine>();
+        engines = new ArrayList<Part>();
         engines.add(new Engine());
         engines.add(new Engine());
         engines.add(new Engine());
         engines.add(new Engine());
 
-        flaps = new ArrayList<Flap>();
+        flaps = new ArrayList<Part>();
         flaps.add(new Flap());
         flaps.add(new Flap());
 
-        pilots = new ArrayList<Pilot>();
+        pilots = new ArrayList<Part>();
         pilots.add(new Pilot());
         pilots.add(new Pilot());
         pilots.add(new Pilot());
