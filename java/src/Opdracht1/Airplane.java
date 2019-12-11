@@ -8,7 +8,7 @@ public class Airplane {
     public ArrayList<Pilot> pilots;
 
     public Airplane(int number) {
-        int flightNumber = number;
+//        int flightNumber = number;
 
         engines = new ArrayList<Engine>();
         engines.add(new Engine());
@@ -76,7 +76,6 @@ public class Airplane {
         if(this.pilots.get(0).isFailed() && this.pilots.get(1).isFailed() && this.pilots.get(2).isFailed()) {
             flightFailed = true;
         }
-
 
         if(flightFailed) {
             throw new CrashException("Plane crashed!");
