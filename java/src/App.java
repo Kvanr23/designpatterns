@@ -3,7 +3,5 @@ public class App {
         System.out.println("Hola, Mundo!");
 
         Recorder recorder = new Recorder();
-
-
     }
 }
