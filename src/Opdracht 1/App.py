@@ -1,2 +1,0 @@
-from .Airplane import Airplane
-
