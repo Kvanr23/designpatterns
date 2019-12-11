@@ -36,7 +36,7 @@ public class Airplane {
             }
             catch (PartException e) {
 //                System.out.println(e);
-                this.engines.get(i).setFailed();
+                this.engines.get(i).setFailed(true);
             }
         }
 
@@ -47,7 +47,7 @@ public class Airplane {
             }
             catch (PartException e) {
 //                System.out.println(e);
-                this.flaps.get(i).setFailed();
+                this.flaps.get(i).setFailed(true);
             }
         }
 
@@ -58,7 +58,7 @@ public class Airplane {
             }
             catch (PartException e) {
 //                System.out.println(e);
-                this.pilots.get(i).setFailed();
+                this.pilots.get(i).setFailed(true);
             }
         }
 

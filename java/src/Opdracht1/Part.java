@@ -14,11 +14,19 @@ public class Part {
     public void calculate() throws PartException {
         Random rand = new Random();
 
-        if(rand.nextInt() == 1) {
-            throw new PartException("Flap failed!");
+        if(rand.nextInt(failChance) == 1) {
+            throw new PartException("kaas");
         }
         else {
             // Do nothing.
         }
+    }
+
+    public boolean isFailed() {
+        return isFailed;
+    }
+
+    public void setFailed(boolean failed) {
+        isFailed = failed;
     }
 }
