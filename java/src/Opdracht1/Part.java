@@ -2,7 +2,7 @@ package Opdracht1;
 
 import java.util.Random;
 
-public class Part {
+public abstract class Part {
 
     private boolean isFailed;
     private int failChance;
@@ -15,7 +15,7 @@ public class Part {
         Random rand = new Random();
 
         if(rand.nextInt(failChance) == 1) {
-            throw new PartException("kaas");
+            throwException();
         }
         else {
             // Do nothing.
@@ -29,4 +29,6 @@ public class Part {
     public void setFailed(boolean failed) {
         isFailed = failed;
     }
+
+    public abstract void throwException() throws PartException;
 }
