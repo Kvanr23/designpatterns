@@ -34,7 +34,7 @@ public class Airplane {
             try {
                 this.engines.get(i).calculate();
             }
-            catch (EngineException e) {
+            catch (PartException e) {
 //                System.out.println(e);
                 this.engines.get(i).setFailed();
             }
@@ -45,7 +45,7 @@ public class Airplane {
             try {
                 this.flaps.get(i).calculate();
             }
-            catch (FlapException e) {
+            catch (PartException e) {
 //                System.out.println(e);
                 this.flaps.get(i).setFailed();
             }
@@ -56,7 +56,7 @@ public class Airplane {
             try {
                 this.pilots.get(i).calculate();
             }
-            catch (PilotException e) {
+            catch (PartException e) {
 //                System.out.println(e);
                 this.pilots.get(i).setFailed();
             }
@@ -70,6 +70,7 @@ public class Airplane {
 
         if(this.flaps.get(0).isFailed() && this.flaps.get(1).isFailed()) {
             flightFailed = true;
+
         }
 
         if(this.pilots.get(0).isFailed() && this.pilots.get(1).isFailed() && this.pilots.get(2).isFailed()) {

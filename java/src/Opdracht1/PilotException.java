@@ -1,6 +1,6 @@
 package Opdracht1;
 
-public class PilotException extends Exception {
+public class PilotException extends PartException {
     public PilotException(String errorMessage) {
         super(errorMessage);
     }

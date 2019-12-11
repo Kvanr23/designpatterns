@@ -22,7 +22,15 @@ public class Recorder {
             }
         }
     }
-
+    public void flapCrash() {
+        crashedByFlap++;
+    }
+    public void engineCrash() {
+        crashedByEngine++;
+    }
+    public void pilotCrash() {
+        crashedByPilot++;
+    }
     public void printResults() {
         System.out.print("Total crashes: ");
         System.out.println(totalCrashes);

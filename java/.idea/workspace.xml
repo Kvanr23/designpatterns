@@ -2,35 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/despat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdracht1/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdracht1/PartException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CrashException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/CrashException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EngineException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Flap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FlapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PilotException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Airplane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/App.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/CrashException.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Engine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/EngineException.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Flap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/FlapException.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Pilot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/PilotException.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Opdracht 1/Recorder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Airplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Airplane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Recorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Recorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/EngineException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Flap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Flap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/FlapException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/PilotException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Recorder.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -54,13 +41,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,18 +78,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,8 +88,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576014898063</updated>
+      <workItem from="1576068324609" duration="1209000" />
+      <workItem from="1576069565493" duration="1998000" />
+      <workItem from="1576073446820" duration="2219000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" timestamp="1576015134788">

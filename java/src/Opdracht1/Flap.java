@@ -2,7 +2,7 @@ package Opdracht1;
 
 import java.util.Random;
 
-public class Flap {
+public class Flap extends Part {
     float failChance = 0.0005f;
     int chance = (int) (1.0f/failChance);
 
