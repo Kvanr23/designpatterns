@@ -16,7 +16,7 @@ public class App {
 //        String[] args = {"ggg", "vvv"};
 
         try {
-            GuiT.createAndShowGUI();
+            Gui.createAndShowGUI();
         }
         catch (MalformedURLException e) {
             //YOLO
