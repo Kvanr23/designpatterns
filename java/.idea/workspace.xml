@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Opdracht2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdracht2/Motor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht1/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht1/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Airplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Airplane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/CrashException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/CrashException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/EngineException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/EngineException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Flap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Flap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/FlapException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/FlapException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Pilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/PilotException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/PilotException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Opdracht1/Recorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Opdracht1/Recorder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +95,9 @@
       <workItem from="1576068324609" duration="1209000" />
       <workItem from="1576069565493" duration="1998000" />
       <workItem from="1576073446820" duration="6814000" />
-      <workItem from="1576080323810" duration="1104000" />
+      <workItem from="1576080323810" duration="1372000" />
+      <workItem from="1576142688323" duration="939000" />
+      <workItem from="1576673184784" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="jUNOr0CKZ">
       <created>1576075738265</created>
@@ -123,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576079770916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed arrays">
+      <created>1576081493091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576081493091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +166,8 @@
     <MESSAGE value="jUNO still r0CKZ 1337" />
     <MESSAGE value="jUNO still r0CKZ 1337 !!!" />
     <MESSAGE value="Cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
+    <MESSAGE value="Fixed arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed arrays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" />
