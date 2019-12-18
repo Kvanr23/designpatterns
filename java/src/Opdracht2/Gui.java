@@ -37,11 +37,5 @@ public class Gui {
                 System.out.println(gasPedalSlider.getX());
             }
         });
-        roundsPerMinuteLabel.addPropertyChangeListener(new PropertyChangeListener() {
-            @Override
-            public void propertyChange(PropertyChangeEvent propertyChangeEvent) {
-                motor.getRoundsPerMinute();
-            }
-        });
     }
 }

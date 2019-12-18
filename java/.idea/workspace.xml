@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht2/Gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht2/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Opdracht2/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Motor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +46,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -105,7 +104,7 @@
       <workItem from="1576073446820" duration="6814000" />
       <workItem from="1576080323810" duration="1372000" />
       <workItem from="1576142688323" duration="939000" />
-      <workItem from="1576673184784" duration="5583000" />
+      <workItem from="1576673184784" duration="6785000" />
     </task>
     <task id="LOCAL-00001" summary="jUNOr0CKZ">
       <created>1576075738265</created>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576677750909</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started working on Gui">
+      <created>1576680440628</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576680440628</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +197,8 @@
     <MESSAGE value="Fixed arrays" />
     <MESSAGE value="Start opdracht 2" />
     <MESSAGE value="Added default values &amp;&amp; start stop function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added default values &amp;&amp; start stop function" />
+    <MESSAGE value="Started working on Gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on Gui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Project_Structure" />
