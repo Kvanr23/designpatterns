@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4f7b5a-ce25-46e1-af43-97a97710fcfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Opdracht2/Gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht2/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Gui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht2/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Opdracht2/GuiT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht2/App.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,18 +49,6 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.App (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Opdracht2.App" />
@@ -88,6 +76,18 @@
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,20 +201,32 @@
     <option name="LAST_COMMIT_MESSAGE" value="Started working on Gui" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#Project_Structure" />
-    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state width="1877" height="199" key="GridCell.Tab.0.bottom" />
-    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state width="1877" height="199" key="GridCell.Tab.0.center" />
-    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state width="1877" height="199" key="GridCell.Tab.0.left" />
-    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state width="1877" height="199" key="GridCell.Tab.0.right" />
-    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state x="461" y="167" key="SettingsEditor" />
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
-    <state x="551" y="288" key="com.intellij.ide.util.TipDialog" />
-    <state x="551" y="288" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" />
-    <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" />
+    <state x="552" y="183" key="#Project_Structure" timestamp="1576683388766" />
+    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom" timestamp="1576683979698">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1576683979698" />
+    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state width="1557" height="223" key="GridCell.Tab.0.center" timestamp="1576683979697">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="223" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1576683979697" />
+    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state width="1557" height="223" key="GridCell.Tab.0.left" timestamp="1576683979697">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="223" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1576683979697" />
+    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state width="1557" height="223" key="GridCell.Tab.0.right" timestamp="1576683979697">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="223" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1576683979697" />
+    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1576683388766" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
+    <state x="551" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1576683388766" />
+    <state x="551" y="288" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" timestamp="1576683388766" />
+    <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1576683388766" />
   </component>
 </project>
