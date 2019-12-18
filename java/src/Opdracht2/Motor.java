@@ -26,12 +26,12 @@ public class Motor {
     }
 
     public int newRoundsPerMinute(int roundsPerMinute) {
-        int minRPM = this.roundsPerMinute - 200;
-        int maxRPM = this.roundsPerMinute + 200;
+        int minRPM = roundsPerMinute - 200;
+        int maxRPM = roundsPerMinute + 200;
 
         Random random = new Random();
         int tempRPM = random.nextInt((maxRPM - minRPM) + 1) + minRPM;
-        roundsPerMinute = tempRPM;
+        this.roundsPerMinute = tempRPM;
         return tempRPM;
     }
 
