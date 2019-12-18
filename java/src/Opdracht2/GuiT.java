@@ -1,7 +1,6 @@
 package Opdracht2;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,8 +10,8 @@ public class GuiT extends JPanel implements ActionListener {
 
     private static JButton startEngine_Button = new JButton("Start Engine"),
             stopEngine_Button = new JButton("Stop Engine");
-
-    private static JLabel toeren = new JLabel();
+    private JLabel isRunning_Label = new JLabel();
+    private static JLabel toeren_Label = new JLabel();
 
     public int x = 0;
 
@@ -22,14 +21,22 @@ public class GuiT extends JPanel implements ActionListener {
         setLayout(new BorderLayout());
 
         add(startEngine_Button, BorderLayout.PAGE_START);
+        add(isRunning_Label, BorderLayout.CENTER);
+        isRunning_Label.setText("OK");
+        add(toeren_Label, BorderLayout.LINE_END);
+        toeren_Label.setText("Toeren");
 
-        Timer timer = new Timer(1000, new ActionListener() {
+        Timer timer = new Timer(1, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                x++;
+                isRunning_Label.setText("Engine running: " + motor.isRunning());
+                toeren_Label.setText(Integer.toString(motor.getRoundsPerMinute()));
                 revalidate();
             }
         });
+        timer.start();
+
+
 
         startEngine_Button.addActionListener(new ActionListener() {
             @Override
