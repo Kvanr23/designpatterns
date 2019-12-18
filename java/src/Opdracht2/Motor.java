@@ -21,8 +21,8 @@ public class Motor {
         isRunning = false;
     }
 
-    public void pushGasPedal() {
-        // roundsPerMinute ++
+    public void pushGasPedal(int gasPedalPercentage) {
+
     }
 
     public int newRoundsPerMinute(int roundsPerMinute) {
